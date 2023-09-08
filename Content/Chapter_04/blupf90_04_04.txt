@@ -1,0 +1,32 @@
+#
+# Chapter 4
+#
+## Animal Model with Groups
+#
+# Example 4.4 -------------------------------------------------------------
+#
+DATAFILE
+data_04_04.txt
+NUMBER_OF_TRAITS
+1
+NUMBER_OF_EFFECTS
+2
+OBSERVATION(S)
+5
+WEIGHT(S)
+
+EFFECTS:
+2 2 cross
+1 10 cross       # change the number of animals to 10 including groups
+RANDOM_RESIDUAL VALUES
+40.0
+RANDOM_GROUP
+2
+RANDOM_TYPE      # use upg = unknown parent groups
+add_an_upg
+FILE
+pedigree_04_04.txt
+(CO)VARIANCES
+20.0
+OPTION method BLUP
+OPTION solv_method FSPAK
