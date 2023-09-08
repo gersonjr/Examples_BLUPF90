@@ -6,7 +6,7 @@
 # Example 4.2 ------------------------------------
 #
 DATAFILE
-data_mr03c.txt
+data_04_3.txt
 NUMBER_OF_TRAITS
 1
 NUMBER_OF_EFFECTS
@@ -27,7 +27,7 @@ RANDOM_GROUP
 RANDOM_TYPE
 add_animal
 FILE
-pedigree_mr03c.txt
+pedigree_04_3.txt
 (CO)VARIANCES
 20.0
 OPTION method BLUP

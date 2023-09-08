@@ -6,7 +6,7 @@
 # Example 4.4 -------------------------------------------------------------
 #
 DATAFILE
-data_04_04.txt
+data_04_4.txt
 NUMBER_OF_TRAITS
 1
 NUMBER_OF_EFFECTS
@@ -16,8 +16,8 @@ OBSERVATION(S)
 WEIGHT(S)
 
 EFFECTS:
-2 2 cross
-1 10 cross       # change the number of animals to 10 including groups
+2  2 cross
+1 10 cross        # change the number of animals to 10 including groups
 RANDOM_RESIDUAL VALUES
 40.0
 RANDOM_GROUP
@@ -25,7 +25,7 @@ RANDOM_GROUP
 RANDOM_TYPE      # use upg = unknown parent groups
 add_an_upg
 FILE
-pedigree_04_04.txt
+pedigree_04_4.txt
 (CO)VARIANCES
 20.0
 OPTION method BLUP
