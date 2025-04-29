@@ -1,0 +1,28 @@
+DATAFILE
+mr121.dat
+NUMBER_OF_TRAITS
+1
+NUMBER_OF_EFFECTS
+2
+OBSERVATION(S)
+6
+WEIGHT(S)
+
+EFFECTS:
+4  1 cross
+1 26 cross
+RANDOM_RESIDUAL VALUES
+245.0
+RANDOM_GROUP
+2
+RANDOM_TYPE
+add_animal
+FILE
+mr121.ped
+(CO)VARIANCES
+35.241
+OPTION solv_method FSPAK
+OPTION SNP_file mr121.gen mr121.xrf
+OPTION no_quality_control
+#OPTION no_tunedG_first
+OPTION thrStopCorAG 0.10

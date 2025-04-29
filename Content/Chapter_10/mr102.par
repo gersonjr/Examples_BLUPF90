@@ -1,0 +1,51 @@
+DATAFILE
+mr102.dat
+NUMBER_OF_TRAITS
+1
+NUMBER_OF_EFFECTS
+12
+OBSERVATION(S)
+4
+WEIGHT(S)
+
+EFFECTS:
+3 10 cross
+5  1 cov
+6  1 cov
+7  1 cov
+8  1 cov
+9  1 cov
+5  8 cov 1
+6  8 cov 1
+7  8 cov 1
+5  8 cov 1
+6  8 cov 1
+7  8 cov 1
+RANDOM_RESIDUAL VALUES
+3.710
+RANDOM_GROUP
+7 8 9
+RANDOM_TYPE
+add_animal
+FILE
+mr102.ped
+(CO)VARIANCES
+ 3.297  0.594 -1.381
+ 0.594  0.921 -0.289
+-1.381 -0.289  1.005
+RANDOM_GROUP
+10 11 12
+RANDOM_TYPE
+diagonal
+FILE
+
+(CO)VARIANCES
+ 6.872 -0.254 -1.101
+-0.254  3.171  0.167
+-1.101  0.167  2.457
+OPTION solv_method FSPAK
+OPTION store_pev_pec 7 8 9
+OPTION include_effects 7 8 9
+OPTION minmaxrr 4 310
+OPTION cumulative 4 305
+OPTION include_pev
