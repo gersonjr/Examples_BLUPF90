@@ -1,0 +1,2 @@
+cat solutions | tail -n+1 | awk '{print $2,$3,$4}' | awk 'NR==FNR {a[$1]=$10;next} $2 in a {print a[$2],$1,$3}' renadd02.ped - > solutionsIDs
+

@@ -1,0 +1,47 @@
+# parameter file for renumf90
+# animal model with 1 trait
+DATAFILE
+ rfi.dat
+TRAITS
+ 10
+FIELDS_PASSED TO OUTPUT
+ 9
+WEIGHT(S)
+ 
+RESIDUAL_VARIANCE
+  2.4684
+EFFECT
+ 2 cross alpha     # mu
+FIXED_REGRESSION
+data
+RR_POSITION
+ 4 5 6 7 
+EFFECT
+ 1 cross alpha
+RANDOM
+ animal 
+OPTIONAL
+ pe
+FILE
+ ped2.dat
+SNP_FILE
+genoSiresColat.dat
+PED_DEPTH
+ 5
+INBREEDING
+pedigree
+RANDOM_REGRESSION
+data
+RR_POSITION
+ 4 5 6 7 
+(CO)VARIANCES
+   3.6085      0.96333       1.0825      0.58397
+  0.96333      0.68688      0.65935      0.27788
+   1.0825      0.65935       1.2361      0.40258
+  0.58397      0.27788      0.40258      0.24934
+(CO)VARIANCES_PE
+   2.6632     -0.14240     -0.71366     -0.39613
+ -0.14240      0.74739      0.41460E-01 -0.38142
+ -0.71366      0.41460E-01  0.75971      0.41095E-01
+ -0.39613     -0.38142      0.41095E-01  0.28592
+
